@@ -9,6 +9,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    border-bottom: 3px solid;
+    width: 50%;
+    text-align: center;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+/* HEADER STYLES BEGIN */
 header {
     padding:20px 35px;
     background-color: #39a6b2;
@@ -46,6 +65,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.5vw;
 }
+/* HEADER STYLES BEGIN */
 
 footer {
     background:#fce138;
@@ -141,6 +161,7 @@ section {
 }
 /* HERO STYLES END */
 
+/* 'What We Do' STYLES BEGIN */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -149,7 +170,9 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/* 'What We Do' STYLES END */
 
+/* 'What You Do' STYLES BEGIN */
 .steps {
     background: #fce138;
 }
@@ -201,67 +224,47 @@ section {
     font-size: 26px;
     line-height: 1.5;
 }
+/* 'What You Do' STYLES END */
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    padding-bottom: 20px;
-    margin: 0 auto 35px auto;
-    border-bottom: 3px solid;
-    width: 50%;
-    text-align: center;
-}
-
-.primary-border {
-    border-color:#fce138;
-}
-
-.secondary-border {
-    border-color:#39a6b2;
+/* 'Your Trainers' STYLES BEGIN */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
-    overflow:auto;
+    flex: 1;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
+    line-height: 1.3;
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
 }
 
 .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
     font-size: 17px;
-    line-height: 1.3;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right; 
-}
 /* REACH OUT STYLES BEGIN */
 .contact {
     background-color:#024e76;

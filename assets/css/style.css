@@ -13,24 +13,6 @@ section {
     padding: 60px;
 }
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    padding-bottom: 20px;
-    margin: 0 auto 35px auto;
-    border-bottom: 3px solid;
-    width: 50%;
-    text-align: center;
-}
-
-.primary-border {
-    border-color:#fce138;
-}
-
-.secondary-border {
-    border-color:#39a6b2;
-}
-
 /* HEADER STYLES BEGIN */
 header {
     padding:20px 35px;
@@ -69,7 +51,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.5vw;
 }
-/* HEADER STYLES BEGIN */
+/* HEADER STYLES END */
 
 /* HERO STYLES BEGIN */
 .hero {
@@ -240,6 +222,7 @@ header nav ul li a {
 .trainer-bio p {
     font-size: 17px;
 }
+/* 'Your Trainers' STYLES END */
 
 /* REACH OUT STYLES BEGIN */
 .contact {
@@ -308,11 +291,7 @@ header nav ul li a {
 }
 /* REACH OUT STYLES END */
 
-/* UTILITY DECLARATIONS */
-.flex-row {
-    display: flex;
-}
-
+/* FOOTER STYLES BEGIN */
 footer {
     background:#fce138;
     width: 100%;
@@ -335,4 +314,29 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+/* FOOTER STYLES END */
+
+/* UTILITY RULES */
+.flex-row {
+    display: flex;
+}
+
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    border-bottom: 3px solid;
+    width: 50%;
+    text-align: center;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
 }

@@ -20,6 +20,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/flipped-hero-image.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -27,6 +34,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -44,6 +52,7 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     align-items:center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a {
@@ -57,7 +66,8 @@ header nav ul li a {
 .hero {
     background-image: url(../images/flipped-hero-image.jpg);
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -77,15 +87,18 @@ header nav ul li a {
     font-size: 55px;
     color:#fce138;
     font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
     color:#024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     border: solid 3px #024e76; 
     width: 40%;
-    margin: 3.5%
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -105,6 +118,7 @@ header nav ul li a {
     font-size: 16px;
     padding: 7px 15px;
     display:block;
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -117,6 +131,7 @@ header nav ul li a {
     border: none;
     font-size: 16px;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 /* HERO STYLES END */
 
@@ -276,6 +291,7 @@ header nav ul li a {
     color: #024e76;
     width: 100%;
     margin: 5px 0 15px 0;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -286,6 +302,7 @@ header nav ul li a {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 .contact-info iframe {
     height: 400px;
@@ -349,6 +366,7 @@ footer a {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {

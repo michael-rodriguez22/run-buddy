@@ -119,6 +119,12 @@ header nav ul li a {
     padding: 7px 15px;
     display:block;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+
+.form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .hero-form label {
@@ -155,13 +161,15 @@ header nav ul li a {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+}
 .step h3 {
     color: #024e76;
     font-size: 46px;
@@ -292,8 +300,14 @@ header nav ul li a {
     width: 100%;
     margin: 5px 0 15px 0;
     border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
 }
 
+.contact-form input:hover,
+.contact-form textarea:hover {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+}
 .contact-form button {
     width: 100%;
     border: none;
@@ -382,6 +396,13 @@ footer a {
     
     header nav ul li a {
         font-size: 20px;
+    }
+
+    header nav ul li a:hover {
+        background-color: #fce138;
+        color: #024e76;
+        border-radius: 15px;
+        text-shadow: none;
     }
 
     footer h2,

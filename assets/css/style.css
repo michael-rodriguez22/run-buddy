@@ -47,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
 }
@@ -61,6 +61,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-text {
@@ -68,7 +69,7 @@ header nav ul li a {
     text-align: right;
     margin: 3.5%;
     color: #fff;
-    line-height: 1.3;
+    line-height: 1.2;
     font-size: 18px;
 }
 
@@ -317,14 +318,14 @@ footer a {
 }
 /* FOOTER STYLES END */
 
-/* UTILITY RULES */
+/* UTILITY RULES BEGIN */
 .flex-row {
     display: flex;
 }
 
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     padding-bottom: 20px;
     margin: 0 auto 35px auto;
@@ -339,4 +340,19 @@ footer a {
 
 .secondary-border {
     border-color:#39a6b2;
+}
+
+/* UTILITY RULES END */
+
+/* MEDIA QUERIES BEGIN */
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
 }
